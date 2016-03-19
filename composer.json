@@ -1,0 +1,23 @@
+{
+    "name": "martiis/testing-php7",
+    "description": "Testing php7",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martynas Sudintas",
+            "email": "martynas12@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ForDummies\\": "forDummies/",
+            "PHP7\\": "src/",
+            "Fixture\\": "fixture/"
+        }
+    }
+}
